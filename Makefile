@@ -63,6 +63,7 @@ all: clean html dirhtml singlehtml latexpdf pdf
 
 html: images
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	python _plugins/lunr.py
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 

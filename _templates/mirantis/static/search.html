@@ -1,0 +1,583 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Search &mdash; Mirantis OpenStack v6.1 | Documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/styles.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '6.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/searchtools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.11/lunr.min.js"></script>
+    <script type="text/javascript" src="_static/abtest.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.2.0/ZeroClipboard.js"></script>
+    <link rel="shortcut icon" href="_static/mirantis_icon.ico"/>
+    <link rel="top" title="Mirantis OpenStack v6.1 | Documentation" href="contents.html" />
+  <script type="text/javascript">
+    jQuery(function() { Search.loadIndex("searchindex.js"); });
+  </script>
+  
+  <script type="text/javascript" id="searchindexloader"></script>
+  
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="index.html" title="Mirantis OpenStack"><img src="_static/mirantis_logo.png">
+          </a>
+            <span id="site-title">Documentation</a>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="contents.html">Guide <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="planning-guide.html">Planning Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#introduction-to-mirantis-openstack-and-fuel">Introduction to Mirantis OpenStack and Fuel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#system-requirements">System Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#planning-summary">Planning Summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#choose-network-topology">Choose Network Topology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#linux-distribution-for-nodes">Linux Distribution for Nodes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#choosing-the-storage-model">Choosing the Storage Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#nodes-and-roles">Nodes and Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#plan-monitoring-facilities">Plan Monitoring Facilities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#planning-a-sahara-deployment">Planning a Sahara Deployment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#preparing-for-vsphere-integration">Preparing for vSphere Integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#preparing-to-run-fuel-on-vsphere">Preparing to run Fuel on vSphere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#calculate-hardware-requirements">Calculate hardware requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#example-of-hardware-requirements-calculation">Example of Hardware Requirements Calculation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#reference-configuration-of-hardware-switches">Reference configuration of hardware switches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#ha-testing-summary">HA testing summary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#hardware-compatibility-list">Hardware compatibility list</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#example-1-ha-nova-network-flatdhcp-manager">Example 1: HA + Nova-network FlatDHCP manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#example-2-ha-neutron-with-gre">Example 2: HA + Neutron with GRE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="planning-guide.html#example-3-ha-neutron-with-vlan-sr-iov-iser">Example 3: HA + Neutron with VLAN + SR-IOV &amp; iSER</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="user-guide.html">User Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#introduction-to-the-user-guide">Introduction to the User Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#confirm-hardware">Confirm hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#download-and-install-fuel">Download and Install Fuel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#changing-pxe-network-parameters-during-installation">Changing PXE Network Parameters During Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#boot-the-fuel-master-node">Boot the Fuel Master Node</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#boot-the-node-servers">Boot the node servers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#install-fuel-plugins">Install Fuel plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#create-a-new-openstack-environment">Create a new OpenStack environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#configure-your-environment">Configure your Environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#deploy-changes">Deploy Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#next-steps">Next Steps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#post-deployment-check">Post-Deployment Check</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#installing-sahara">Installing Sahara</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#upgrading-and-updating-from-earlier-releases">Upgrading and Updating from Earlier Releases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#role-operations">Role operations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#using-fuel-cli">Using Fuel CLI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="user-guide.html#vmware-integration-notes">VMware integration notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="operations.html">Operations Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#accessing-the-shell-on-the-nodes">Accessing the shell on the nodes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#how-to-exclude-some-drives-from-raid-1-array">How To: Exclude some drives from RAID-1 array</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#how-to-modify-kernel-parameters">How To: Modify Kernel Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#howto-create-an-xfs-disk-partition">HowTo: Create an XFS disk partition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#howto-enable-disable-galera-cluster-autorebuild-mechanism">HowTo: Enable/Disable Galera Cluster Autorebuild Mechanism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#howto-backport-galera-pacemaker-ocf-script">HowTo: Backport Galera Pacemaker OCF script</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#howto-backport-memcached-backend-fixes">HowTo: Backport Memcached backend fixes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#howto-backport-rabbitmq-pacemaker-ocf-script">HowTo: Backport RabbitMQ Pacemaker OCF script</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#howto-manage-openstack-services">HowTo: Manage OpenStack services</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#adding-redeploying-and-replacing-nodes">Adding, Redeploying, and Replacing Nodes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#how-to-safely-remove-a-ceph-osd-node">How To: Safely remove a Ceph OSD node</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#how-to-adjust-placement-groups-when-adding-additional-ceph-osd-node-s">How To: Adjust Placement Groups when adding additional Ceph OSD node(s)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#howto-shut-down-the-whole-cluster">HowTo: Shut down the whole cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#creating-and-configuring-ml2-drivers-for-neutron">Creating and Configuring ML2 Drivers for Neutron</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#configuring-multiple-cluster-networks">Configuring Multiple Cluster Networks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#using-yaml-configuration-files">Using YAML configuration files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#docker-containers-and-dockerctl">Docker Containers and Dockerctl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#enable-experimental-features">Enable Experimental Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#fuel-access-control">Fuel Access Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#managing-your-ceph-cluster">Managing your Ceph cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#sahara-deployment">Sahara Deployment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#murano-deployment-notes">Murano Deployment Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#maintenance-mode">Maintenance Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#running-vcenter">Running vCenter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#performance-notes">Performance Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#howto-backup-and-restore-fuel-master">HowTo: Backup and restore Fuel Master</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#how-slave-nodes-choose-the-interface-to-use-for-pxe-booting">How slave nodes choose the interface to use for PXE booting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#running-ceilometer">Running Ceilometer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#heat-deployment-notes">Heat Deployment Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#horizon-deployment-notes">Horizon Deployment Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#howto-configure-horizon-on-https">HowTo: Configure Horizon on HTTPS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#details-of-health-checks">Details of Health Checks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#network-issues">Network Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#notes-on-corosync-and-pacemaker">Notes on Corosync and Pacemaker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#troubleshooting">Troubleshooting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#how-to-troubleshoot-amqp-issues">How To Troubleshoot AMQP issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#ha-testing-scenarios">HA testing scenarios</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#openstack-database-backup-and-restore-with-percona-xtrabackup">OpenStack Database Backup and Restore with Percona XtraBackup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#writing-a-bootable-fuel-6-1-iso-to-a-usb-drive">Writing a bootable Fuel 6.1 ISO to a USB drive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#deploying-an-empty-role-through-fuel-cli">Deploying an Empty Role through Fuel CLI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#configuring-repositories">Configuring repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#downloading-ubuntu-system-packages">Downloading Ubuntu system packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="operations.html#applying-patches">Applying patches</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="monitoring-guide.html">Monitoring Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="monitoring-guide.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monitoring-guide.html#assumptions">Assumptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monitoring-guide.html#intended-audience">Intended Audience</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monitoring-guide.html#document-scope">Document Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monitoring-guide.html#common-monitoring-practices">Common Monitoring Practices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monitoring-guide.html#monitoring-activities-details">Monitoring Activities Details</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monitoring-guide.html#ha-cluster">HA Cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monitoring-guide.html#storage-clusters">Storage clusters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monitoring-guide.html#hardware-and-system-monitoring">Hardware and System Monitoring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monitoring-guide.html#appendix">Appendix</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="virtualbox.html">Running Mirantis OpenStack on VirtualBox</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="virtualbox.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="virtualbox.html#installing-using-automated-scripts">Installing Using Automated Scripts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="virtualbox.html#manual-installation">Manual Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="virtualbox.html#networking">Networking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="virtualbox.html#deployment-configuration-to-access-openstack-api-and-vms-from-host-machine">Deployment configuration to access OpenStack API and VMs from host machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="virtualbox.html#additional-notes">Additional Notes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference-architecture.html">Reference Architectures</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#openstack-environment-architecture">OpenStack Environment Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#multi-node-with-ha-deployment">Multi-node with HA Deployment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#details-of-multi-node-with-ha-deployment">Details of Multi-node with HA Deployment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#ha-logical-setup">HA Logical Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#how-ha-with-pacemaker-and-corosync-works">How HA with Pacemaker and Corosync Works</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#mysql-and-galera">MySQL and Galera</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#vmware-vsphere-integration">VMware vSphere Integration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#ceph-monitors">Ceph Monitors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#network-architecture">Network Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#neutron-network-topologies">Neutron Network Topologies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#nova-network-topologies">Nova Network Topologies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#advanced-network-configuration-using-open-vswitch">Advanced Network Configuration using Open VSwitch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#nics-aggregation">NICs Aggregation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#how-fuel-upgrade-works">How Fuel upgrade works</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#how-the-operating-system-role-is-provisioned">How the Operating System Role is provisioned</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#two-provisioning-methods">Two provisioning methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#image-based-provisioning">Image Based Provisioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#fuel-agent">Fuel Agent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#image-building">Image building</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#operating-system-provisioning">Operating system provisioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#task-based-deployment">Task-based deployment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#the-fuel-master-node-containers-structure">The Fuel Master node containers structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#fuel-repository-mirroring">Fuel Repository Mirroring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference-architecture.html#mirantis-openstack-6-1-network-performance-changes-and-results">Mirantis OpenStack 6.1 Network Performance Changes and Results</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="terminology.html">Terminology Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="terminology.html#terminology-main">Terminology Reference</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="plugin-dev.html">Fuel Plugin Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="plugin-dev.html#development">Development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plugin-dev.html#installation-instructions">Installation instructions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plugin-dev.html#plugin-specific-instructions">Plugin-specific instructions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plugin-dev.html#certification">Certification</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="file-ref.html">File Format Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="file-ref.html#fuel-file-reference-pages">Fuel File Reference Pages</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="release-notes.html">Release Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#release-notes-for-mirantis-openstack-6-1">Release Notes for Mirantis OpenStack 6.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#what-s-new-in-mirantis-openstack-6-1">What's New in Mirantis OpenStack 6.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#major-component-versions">Major Component Versions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#fuel-installation-and-deployment">Fuel Installation and Deployment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#hardware-support-issues">Hardware Support Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#networking-issues">Networking Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#openstack-deployment-issues">OpenStack Deployment Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#test-and-verification-issues">Test and Verification Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#issues-in-high-availability">Issues in High Availability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#issues-with-image-based-provisioning">Issues with Image Based Provisioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#storage-technologies-issues">Storage Technologies Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#vmware-support-issues">VMware Support Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#issues-in-openstack-components">Issues in OpenStack Components</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#how-to-obtain-the-product">How to Obtain the Product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-notes.html#contacting-support">Contacting Support</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="style-guide.html">Style Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="style-guide.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="style-guide.html#terminology-lists">Terminology lists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="style-guide.html#writing-syntax">Writing syntax</a></li>
+<li class="toctree-l2"><a class="reference internal" href="style-guide.html#coding-and-formatting-practices">Coding and formatting practices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="style-guide.html#creating-documentation-for-fuel-plugins">Creating documentation for Fuel Plugins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="style-guide.html#git-and-gerrit-practices">Git and Gerrit practices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="style-guide.html#reviewer-s-checklist">Reviewer's Checklist</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="eula.html">Fuel License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="third-party-licenses.html">Third-Party Components Licenses</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="third-party-licenses.html#deb-packages-licenses">DEB Packages Licenses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="third-party-licenses.html#rpm-packages-licenses">RPM Packages Licenses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="third-party-licenses.html#javascript-libraries-licenses">JavaScript Libraries Licenses</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Section <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"></ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li class="hidden-sm"></li>
+            
+          </ul>
+
+          
+            
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <h1 id="search-documentation">Search</h1>
+  <div id="fallback" class="admonition warning">
+  <script type="text/javascript">$('#fallback').hide();</script>
+  <p>
+    Please activate JavaScript to enable the search
+    functionality.
+  </p>
+  </div>
+  <p>
+    From here you can search these documents. Enter your search
+    words into the box below and click "search". Note that the search
+    function will automatically search for all of the words. Pages
+    containing fewer words won't appear in the result list.
+  </p>
+
+  
+  <form class="form-inline" action="" method="get">
+    <div class="form-group">
+      <input type="text" class="form-control search-field" name="q" value="" />
+    </div>
+    <input type="submit" class="btn btn-default" value="search" />
+    <span id="search-progress" style="padding-left: 10px"></span>
+  </form>  
+  
+  <div class="row">
+    <div class="col-md-8">
+  
+  <div id="search-results-lunr">
+  
+  </div>
+</div>
+</div>
+    </div>
+      
+  </div>
+</div>
+
+
+<script>
+
+
+
+
+  function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+
+$(document).ready(function(){
+    var index = lunr(function(){
+      this.field('title', {boost: 10});
+      this.field('body');
+      this.field('href');
+      this.ref('id');
+    });
+
+    var store = {};
+
+    $.getJSON("_static/data.json", function (data) {
+      //data = JSON.parse(data);
+      $(data).each(function(i, item){
+        index.add({title: item.title, body: item.body, href: item.url, id: i});
+        store[i] = {title: item.title, body: item.body, href: item.url};
+      });
+
+
+    if(getParameterByName('q')) {
+      var query = getParameterByName('q');
+      var results = index.search('fuel');
+      // perform search
+      var length = 210;
+      var bodyText = '';
+      var results = index.search(query);
+
+console.log(results);
+
+      $('#search-results-lunr').empty().append(
+          results.length ?
+              results.map(function(result){
+                var el = $('<p>')
+                    .append($('<a>')
+                        .attr('href', store[result.ref].href)
+                        .text(store[result.ref].title)
+                );
+                var body = store[result.ref].body.toLowerCase();
+                var bodySearch = body.search(query.toLowerCase());
+                if(bodySearch > 100) {
+                  //bodyText = store[result.ref].body.substring(bodySearch - (length / 2), bodySearch + (length / 2));
+                  bodyText = jQuery.trim(store[result.ref].body).substring(bodySearch, bodySearch + length).split(" ").slice(0, -1).join(" ") + "...";
+                } else {
+                  bodyText = jQuery.trim(store[result.ref].body).substring(0, length).split(" ").slice(0, -1).join(" ") + "...";
+                }
+                el.append($('<p>').text(bodyText));
+                return el;
+              }) : $('<p><strong>No results found</strong></p>')
+      );
+
+    }
+    });
+});
+</script>
+
+
+
+<footer>
+    <section class="fsprod">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul style="margin-bottom:0;">
+                        <li><a class="fmenu_section" href="https://www.mirantis.com/products/mirantis-openstack-software/"
+                               style="margin-top: 15px;">Products</a></li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-4"><a href="https://www.mirantis.com/products/mirantis-openstack-software/"
+                                                                   class="fproduct">
+                            <div class="footerglyph1"></div>
+                            <span>Mirantis <br>OpenStack Software</span></a></div>
+                        <div class="col-md-4 col-sm-4 col-xs-4"><a href="https://www.mirantis.com/products/application-catalog-murano/"
+                                                                   class="fproduct">
+                            <div class="footerglyph2"></div>
+                            <span>Application <br>Catalog Murano</span></a></div>
+                        <div class="col-md-4 col-sm-4 col-xs-4"><a href="https://www.mirantis.com/products/openstack-drivers-and-plugins/"
+                                                                   class="fproduct">
+                            <div class="footerglyph3"></div>
+                            <span>OpenStack Drivers <br>and Plugins</span></a></div>
+                    </div>
+                </div>
+                <hr class="hidden-lg hidden-md">
+                <div class="col-md-3 col-sm-6 col-xs-6 hidden-sm hidden-xs ">
+                    <ul>
+                        <li><a class="fmenu_section" style="margin-top: 15px;">Solutions</a></li>
+                        <li><a href="https://www.mirantis.com/solutions/dev-test/">Dev/Test</a></li>
+                        <li><a href="https://www.mirantis.com/solutions/platform-as_a_service_paas/">PaaS</a></li>
+                        <li><a href="https://www.mirantis.com/solutions/container-technologies/">Containers</a></li>
+                        <li><a href="https://www.mirantis.com/solutions/hybrid-cloud/">Hybrid Cloud</a></li>
+                        <li><a href="https://www.mirantis.com/solutions/industry-solutions/">Industry Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6">
+                    <ul>
+                        <li><a class="fmenu_section" style="margin-top: 15px;">Get Started</a></li>
+                        <li><a href="https://www.mirantis.com/get-started">Quick Start Guide</a></li>
+                        <li><a href="https://www.mirantis.com/products/mirantis-openstack-software/">Download and
+                            Install</a></li>
+                        <li><a href="https://www.mirantis.com/?s=mox+tutorial&amp;order=asc">Developer Tutorials</a>
+                        </li>
+                        <li><a href="https://www.mirantis.com/products/mirantis-openstack-software/documentation/">Documentation</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hidden-lg hidden-md col-sm-6 col-xs-6">
+                    <ul>
+                        <li><a class="fmenu_section" href="https://www.mirantis.com/company/about-pure-play-openstack/"
+                               style="margin-top: 15px;">Company</a></li>
+                        <li><a href="https://online.mirantis.com/contact-us">Get In Touch</a></li>
+                        <li><a href="https://www.mirantis.com/contact/">Locations</a></li>
+                        <li><a href="https://www.mirantis.com/careers/">Careers</a></li>
+                        <li><a href="https://www.mirantis.com/company/leadership/">Management</a></li>
+                        <li><a href="https://www.mirantis.com/company/investors/">Investors</a></li>
+                        <li><a href="https://www.mirantis.com/company/leadership/board-of-directors/">Board of Directors</a></li>
+                        <li><a href="https://www.mirantis.com/company/press-center/info/">Press Center</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="hidden-lg hidden-md hidden-sm hidden-xs">
+        </div>
+    </section>
+    <section class="fscomp">
+        <div class="container footsm  hidden-sm hidden-xs">
+            <div class="row">
+                <div class="col-md-2">
+                    <ul>
+                        <li><a class="fmenu_section" style="font-weight:normal;font-size: 1.1em;">Services</a></li>
+                        <li><a href="https://www.mirantis.com/services/managed-services/">Managed Services</a></li>
+                        <li><a href="https://www.mirantis.com/services/assessment/">Assessment</a></li>
+                        <li><a href="https://www.mirantis.com/services/implementation/">Implementation</a></li>
+                        <li><a href="https://www.mirantis.com/services/enterprise-support-services/">Enterprise Support</a></li>
+                        <li><a href="https://www.mirantis.com/services/migration-services/">Migration Services</a></li>
+                        <li><a href="https://www.mirantis.com/services/drivers-upstreaming-maintenance/">Driver Development</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 hidden-sm">
+                    <ul>
+                        <li><a class="fmenu_section" style="font-weight:normal;font-size: 1.1em;">Training</a></li>
+                        <li><a href="https://training.mirantis.com/openstack-courses">OpenStack Courses</a></li>
+                        <li><a href="https://training.mirantis.com/certification">Certification</a></li>
+                        <li><a href="https://training.mirantis.com/online-virtual-training">Virtual Training</a></li>
+                        <li><a href="https://training.mirantis.com/training/onsite.html">OnSite Training</a></li>
+                        <li><a href="https://training.mirantis.com/online-resources">Training Resources</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 hidden-sm">
+                    <ul>
+                        <li><a class="fmenu_section" style="font-weight:normal;font-size: 1.1em;">Partners</a></li>
+                        <li><a href="https://www.mirantis.com/partners/">Overview</a></li>
+                        <li><a href="https://www.mirantis.com/partners/mirantis-unlocked-partner-solutions/">Partner list</a></li>
+                        <li><a href="https://www.mirantis.com/partners/mirantis-channel-partners/">Channel Partners</a></li>
+                        <li><a href="https://www.mirantis.com/partners/service-providers/">Service Providers</a></li>
+                        <li><a href="https://training.mirantis.com/mirantis-training-partner-program-intro/">Training
+                            Partners</a></li>
+                        <li><a href="https://www.mirantis.com/partners/become-mirantis-technology-partner/">Become a Partner</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 hidden-sm">
+                    <ul>
+                        <li><a class="fmenu_section" style="font-weight:normal;font-size: 1.1em;">OpenStack Now</a></li>
+                        <li><a href="https://www.mirantis.com/blog/">Blog</a></li>
+                        <li><a href="https://www.mirantis.com/openstack/">News</a></li>
+                        <li><a href="https://www.mirantis.com/openstack/tutorials/">Tutorials</a></li>
+                        <li><a href="https://www.mirantis.com/openstack/news/community-news/">Community/Events</a></li>
+                        <li><a href="http://online.mirantis.com/openstack-now-newsletter/">Subscribe</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 hidden-sm">
+                    <ul>
+                        <li><a class="fmenu_section" href="https://www.mirantis.com/company/about-pure-play-openstack/"
+                               style="font-weight:normal;font-size: 1.1em;">Company</a></li>
+                        <li><a href="https://online.mirantis.com/contact-us">Get In Touch</a></li>
+                        <li><a href="https://www.mirantis.com/contact/">Locations</a></li>
+                        <li><a href="https://www.mirantis.com/careers/">Careers</a></li>
+                        <li><a href="https://www.mirantis.com/company/leadership/">Management</a></li>
+                        <li><a href="https://www.mirantis.com/company/investors/">Investors</a></li>
+                        <li><a href="https://www.mirantis.com/company/leadership/board-of-directors/">Board of Directors</a></li>
+                        <li><a href="https://www.mirantis.com/company/press-center/info/">Press Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clear"></div>
+    <div class="footer_copy">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-logo text-left-lg text-left-md text-left-sm text-center-xs">
+                    <span class="mira_btm">Mirantis Inc.</span> <br>
+                    <span class="pureplay_btm">Pure Play OpenStack.</span>
+                </div>
+                <div class="col-md-4 col-sm-5 col-copy text-center">
+                    <span class="copy_btm">&copy; 2005 &mdash; 2015 Mirantis, Inc.<br><span
+                            style="font-size: 10px; opacity:0.6;  line-height: 0.9em; display:inline-block;margin-top:5px; ">All rights reserved. "Mirantis" and "FUEL" are are registered trademarks of Mirantis, Inc. All other trademarks are the property of their respective owners.</span></span>
+                </div>
+                <div class="col-md-5 col-sm-4 col-address text-right-lg text-right-md text-right-sm text-center-xs">
+<span class="mira_btm">615 National Avenue, Suite 100 Mountain View, CA 94043<br>
++1-650-963-9828</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-logo">
+                </div>
+                <div class="col-md-4 col-sm-4 cc">
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png"></a><br>This work is
+                    licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative
+                    Commons Attribution-ShareAlike 3.0 Unported License</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="breadcrumb">
+  <div class="container"><div class="row"><div class="col-xs-12"><span id="guide">You are reading: </span><span><a id="guide-href"></a></span><span class="sep">&gt;</span> <span id="guide-section"><a id="guide-section-href"></a></span></div></div></div>
+</div>
+<a href="#0" class="cd-top">Top</a>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K2J65K"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K2J65K');</script>
+<!-- End Google Tag Manager -->
+
+  </body>
+</html>
